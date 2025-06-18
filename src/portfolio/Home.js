@@ -25,7 +25,7 @@ const Home = (props) => {
                                             <img src="images/socar_title.jpg" alt=""/>
                                         </div>
                                         <div className="work_cont">
-                                            <h4>UI UX design | SOCAR</h4>
+                                            <h4>React Bootstrap | SOCAR</h4>
                                             <p>SOCAR APP을 UX 경험에 근거하여 UI 디자인을 해 보았습니다. </p>
                                         </div>
                                     </article>
@@ -39,7 +39,7 @@ const Home = (props) => {
                                             <img src="images/banner_title.jpg" alt=""/>
                                         </div>
                                         <div className="work_cont">
-                                            <h4>Banner design | Promotional &amp; Notice Web Banner</h4>
+                                            <h4>Contents design | Promotional Banner</h4>
                                             <p>쇼핑몰의 프로모션 및 공지용 배너 디자인입니다.</p>
                                         </div>
                                     </article>
