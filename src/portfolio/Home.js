@@ -47,7 +47,7 @@ const Home = (props) => {
                                             <img src="images/banner_title.jpg" alt="콘텐츠 디자인 포트폴리오"/>
                                         </div>
                                         <div className="work_cont">
-                                            <h4>중간플젝 | Promotional Banner</h4>
+                                            <h4>전자결제 | Promotional Banner</h4>
                                             <p>중간 프로젝트 작업</p>
                                         </div>
                                     </article>
