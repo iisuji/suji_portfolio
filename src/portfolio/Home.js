@@ -34,7 +34,7 @@ const Home = (props) => {
                                         </div>
                                         <div className="work_cont">
                                             <h4>호텔 | React Bootstrap</h4>
-                                            <p>SOCAR APP을 UX 경험에 근거하여 UI 디자인을 해 보았습니다. </p>
+                                            <p>최종프로젝트 작업 </p>
                                         </div>
                                     </article>
                                     </a>
@@ -48,7 +48,7 @@ const Home = (props) => {
                                         </div>
                                         <div className="work_cont">
                                             <h4>중간플젝 | Promotional Banner</h4>
-                                            <p>쇼핑몰의 프로모션 및 공지용 배너 디자인입니다.</p>
+                                            <p>중간 프로젝트 작업</p>
                                         </div>
                                     </article>
                                     </a>
