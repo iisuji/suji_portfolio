@@ -1,4 +1,11 @@
+import { useState } from "react";
+
 const Home = (props) => {
+    const [data, setData] = useState({
+        img_about:'macbook_img.jpg',
+        img_work:'bank_title.jpg'
+    });
+
     return(
         <div>
             <div className="wrap">
@@ -8,7 +15,7 @@ const Home = (props) => {
                             <span className="span1">Park Suji's Web Portfolio</span>
                             <span>/ 2025</span>
                         </div>
-                        <h1>I am<br/>UI UX<br/><span>Web</span><br/>Designer</h1>
+                        <h1>I am<br/>UI UX<br/><span>Web</span><br/>Developer</h1>
                     </div>
                 </header>
             </div>
@@ -20,29 +27,45 @@ const Home = (props) => {
                             <h2>My Work</h2>
                             <ul>
                                 <li className="work_all" data-aos="zoom-in-up" offset="100" delay="2000" duration="2000" data-aos-easing="ease-out-back">
+                                    <a href="https://drive.google.com/file/d/14_WL_ebHgU_3DHB0dEun-j2lSDQrjvo4/view?usp=drive_link">
                                     <article className="li_inner" data="p4">
                                         <div className="work_img">
-                                            <img src="images/socar_title.jpg" alt=""/>
+                                            <img src="images/socar_title.jpg" alt="개발 포트폴리오"/>
                                         </div>
                                         <div className="work_cont">
-                                            <h4>React Bootstrap | SOCAR</h4>
+                                            <h4>호텔 | React Bootstrap</h4>
                                             <p>SOCAR APP을 UX 경험에 근거하여 UI 디자인을 해 보았습니다. </p>
                                         </div>
                                     </article>
+                                    </a>
                                 </li>
-                            
-                                
-                               
+                                            
                                 <li className="work_all" data-aos="zoom-in-up" offset="100" delay="2000" duration="2000" data-aos-easing="ease-out-back">
+                                    <a href="https://drive.google.com/file/d/1M_I_toqGX2nlUcSPOEjNDnDb2g3WoX1U/view?usp=drive_link">
                                     <article className="li_inner" data="p8">
                                         <div className="work_img">
-                                            <img src="images/banner_title.jpg" alt=""/>
+                                            <img src="images/banner_title.jpg" alt="콘텐츠 디자인 포트폴리오"/>
                                         </div>
                                         <div className="work_cont">
-                                            <h4>Contents design | Promotional Banner</h4>
+                                            <h4>중간플젝 | Promotional Banner</h4>
                                             <p>쇼핑몰의 프로모션 및 공지용 배너 디자인입니다.</p>
                                         </div>
                                     </article>
+                                    </a>
+                                </li>
+
+                                <li className="work_all" data-aos="zoom-in-up" offset="100" delay="2000" duration="2000" data-aos-easing="ease-out-back">
+                                    <a href="https://drive.google.com/file/d/1aFKfSocp5jA6wh1lMlayvSSy5b6DjrE1/view?usp=drive_link">
+                                    <article className="li_inner" data="p8">
+                                        <div className="work_img">
+                                            <img src="images/banner_title.jpg" alt="콘텐츠 디자인 포트폴리오"/>
+                                        </div>
+                                        <div className="work_cont">
+                                            <h4>콘텐츠 디자인 | Promotional Banner</h4>
+                                            <p>쇼핑몰의 프로모션 배너 / 상세페이지 디자인입니다.</p>
+                                        </div>
+                                    </article>
+                                    </a>
                                 </li>
                              
                             </ul>
@@ -60,7 +83,7 @@ const Home = (props) => {
                             </div>
                             <div className="about_2" data-aos="fade-up" offset="100" delay="3000" duration="3000" data-aos-easing="ease-out-back">
                                 <div className="img_wrap">
-                                    <img src="images/macbook_img.jpg" alt=""/>
+                                    <img src={`/imgs/${data.img_about}`} alt="컴퓨터 작업 이미지"/>
                                 </div>
                                 <p>웹에 대해 알게된 후에,웹은 서핑하도록 단순히 꾸며놓은 곳이 아닌,<br/>여러가지 언어로 사용자와 그들의 편의를 고려한<br/>잘 짜여진 하나의 세계라고 여기게 되었습니다. <br/>웹 세상에 더 깊이 빠져서 여행하는 웹디자이너가 되고 싶습니다.</p>
                                 <p>남들보다 더 잘하려고 고민하는 것이 아니라, <br/>‘지금의 나’보다 더 나아지려고 노력하고 기술을 향상시키기 위해 애쓰는<br/> 웹디자이너로 성장하겠습니다.</p>
