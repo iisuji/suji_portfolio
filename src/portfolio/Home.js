@@ -3,7 +3,10 @@ import { useState } from "react";
 const Home = (props) => {
     const [data, setData] = useState({
         img_about:'macbook_img.jpg',
-        img_work:'bank_title.jpg'
+        img_thum1:'thumnail_1.jpg',
+        img_thum2:'thumnail_2.jpg',
+        img_thum3:'thumnail_3.jpg'
+
     });
 
     return(
@@ -27,44 +30,45 @@ const Home = (props) => {
                             <h2>My Work</h2>
                             <ul>
                                 <li className="work_all" data-aos="zoom-in-up" offset="100" delay="2000" duration="2000" data-aos-easing="ease-out-back">
-                                    <a href="https://drive.google.com/file/d/14_WL_ebHgU_3DHB0dEun-j2lSDQrjvo4/view?usp=drive_link">
+                                    <a href="https://drive.google.com/file/d/14_WL_ebHgU_3DHB0dEun-j2lSDQrjvo4/view?usp=drive_link" target="_blank">
                                     <article className="li_inner" data="p4">
                                         <div className="work_img">
-                                            <img src={`/imgs/${data.img_work}`} alt="개발 포트폴리오"/>
+                                            <img src={`/imgs/${data.img_thum1}`} alt="개발 포트폴리오"/>
                                         </div>
                                         <div className="work_cont">
                                             <h4>Prestige<br/>스마트 호텔 통합 운영 및 주차 관제</h4>
-                                            <p>시스템 연동과 자동화를 통해 호텔 운영의 효율성을 극대화하고 고객 편의를 향상시키는 스마트 호텔 시스템입니다.
-주차 관제 시스템을 IoT로 구축하여 예약과 연동함으로써 차량 예약 고객의 입·출차 현황을 실시간으로 관리할 수 있습니다. 또한, 예약, 룸 서비스, 하우스키핑 등 다양한 시스템을 통합하여 관리자는 업무를 더욱 효율적으로 처리할 수 있으며, 고객은 보다 편리한 서비스를 경험할 수 있습니다.</p>
+                                            <p>시스템 연동과 자동화를 통해 호텔 운영의 효율성을 극대화하고 고객 편의를 향상시키는 스마트 호텔 시스템</p>
+                                            <p>TOOL : REACT BOOTSTRAP / SPRINGBOOT</p>
                                         </div>
                                     </article>
                                     </a>
                                 </li>
                                             
                                 <li className="work_all" data-aos="zoom-in-up" offset="100" delay="2000" duration="2000" data-aos-easing="ease-out-back">
-                                    <a href="https://drive.google.com/file/d/1M_I_toqGX2nlUcSPOEjNDnDb2g3WoX1U/view?usp=drive_link">
+                                    <a href="https://drive.google.com/file/d/1M_I_toqGX2nlUcSPOEjNDnDb2g3WoX1U/view?usp=drive_link" target="_blank">
                                     <article className="li_inner" data="p8">
                                         <div className="work_img">
-                                            <img src={`/imgs/${data.img_work}`} alt="콘텐츠 디자인 포트폴리오"/>
+                                            <img src={`/imgs/${data.img_thum2}`} alt="콘텐츠 디자인 포트폴리오"/>
                                         </div>
                                         <div className="work_cont">
                                             <h4>People Wing<br/>인사관리 프로그램</h4>
-                                            <p>소규모 회사들에게 인사 관리 기능을 제공하는 것을 목적으로 한 프로젝트로 회사-부서-사원 구조의 회사 관리자, 사원 역할에 따라 맞춤형 기능을 제공합니다.
-관리자는 부서, 사원, 급여, 근무제, 결재 문서 등을 설정하고, 사원은 설정된 환경을 바탕으로 사원 정보, 급여 명세 이력, 결재 문서, 출근 이력 등을 열람하고 처리할 수 있습니다.</p>
+                                            <p>소규모 회사들에게 전자결재, 근태관리, 급여 등 인사 관리 기능을 제공하는 것을 목적으로 한 프로그램</p>
+                                            <p>TOOL : JSX / SPRING</p>
                                         </div>
                                     </article>
                                     </a>
                                 </li>
 
                                 <li className="work_all" data-aos="zoom-in-up" offset="100" delay="2000" duration="2000" data-aos-easing="ease-out-back">
-                                    <a href="https://drive.google.com/file/d/1F1nEkZPUNiDbzy2nFXtgmXN5YKULqEjQ/view?usp=sharing">
+                                    <a href="https://drive.google.com/file/d/1F1nEkZPUNiDbzy2nFXtgmXN5YKULqEjQ/view?usp=sharing" target="_blank">
                                     <article className="li_inner" data="p8">
                                         <div className="work_img">
-                                            <img src={`/imgs/${data.img_work}`} alt="콘텐츠 디자인 포트폴리오"/>
+                                            <img src={`/imgs/${data.img_thum3}`} alt="콘텐츠 디자인 포트폴리오"/>
                                         </div>
                                         <div className="work_cont">
-                                            <h4>콘텐츠 디자인 | Promotional Banner</h4>
-                                            <p>쇼핑몰의 프로모션 배너 / 상세페이지 디자인입니다.</p>
+                                            <h4>Promotional Banner<br/>콘텐츠 디자인</h4>
+                                            <p>콘텐츠 웹디자이너로 일했을 때 작업한 프로모션 배너 및 상세페이지 디자인입니다.</p>
+                                            <p>TOOL : PHOTOSHOP / ILLUSTRATOR</p>
                                         </div>
                                     </article>
                                     </a>
@@ -102,7 +106,7 @@ const Home = (props) => {
                             <li>Birth / <span>1988.02.05</span></li>
                             <li>Adress / <span>서울시 서대문구 홍은동</span></li>
                             <li>Course of Study /<br/>
-                                <span>24.08~25.03 무중단 서비스를 위한 클라우드 기반 자바 개발자 과정 (프론트&백엔드 풀스택 개발 과정)</span><br/>
+                                <span>24.08~25.03 무중단 서비스를 위한 클라우드 기반 자바 개발자 과정 (프론트 & 백엔드 풀스택 개발 과정) 수료</span><br/>
                                 <span>19.10~19.11 UI/UX 프로페셔널 과정 수료</span><br/>
                                 <span>19.09~19.09 황금비율 웹디자인 과정 수료</span><br/>
                                 <span>16.11~17.03 스마트기기 UX &amp; UI 디자인(디지털앱, 웹디자인) 양성과정 수료</span>
