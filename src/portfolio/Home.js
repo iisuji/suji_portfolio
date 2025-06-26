@@ -38,7 +38,8 @@ const Home = (props) => {
                                         <div className="work_cont">
                                             <h4>Prestige<br/>스마트 호텔 통합 운영 및 주차 관제</h4>
                                             <p>시스템 연동과 자동화를 통해 호텔 운영의 효율성을 극대화하고 고객 편의를 향상시키는 스마트 호텔 시스템</p>
-                                            <p>TOOL : REACT BOOTSTRAP / SPRINGBOOT</p>
+                                            <p>Tool : React, Spring Boot, Axios, MySQL, Bootstrap</p>
+                                            <span>React</span> <span>Spring Boot</span> <span>API연동</span>
                                         </div>
                                     </article>
                                     </a>
@@ -53,7 +54,8 @@ const Home = (props) => {
                                         <div className="work_cont">
                                             <h4>People Wing<br/>인사관리 프로그램</h4>
                                             <p>소규모 회사들에게 전자결재, 근태관리, 급여 등 인사 관리 기능을 제공하는 것을 목적으로 한 프로그램</p>
-                                            <p>TOOL : JSX / SPRING</p>
+                                            <p>TOOL : Spring Framework, JSP, JSTL, ORACLE, Bootstrap</p>
+                                            <span>Spring Framework</span> <span>MVC</span>
                                         </div>
                                     </article>
                                     </a>
@@ -67,7 +69,7 @@ const Home = (props) => {
                                         </div>
                                         <div className="work_cont">
                                             <h4>Promotional Banner<br/>콘텐츠 디자인</h4>
-                                            <p>콘텐츠 웹디자이너로 일했을 때 작업한 프로모션 배너 및 상세페이지 디자인입니다.</p>
+                                            <p>콘텐츠 웹디자이너로 일했을 때 작업한 프로모션 배너 및 상세페이지 디자인</p>
                                             <p>TOOL : PHOTOSHOP / ILLUSTRATOR</p>
                                         </div>
                                     </article>
@@ -84,6 +86,7 @@ const Home = (props) => {
                                 <div>
                                     <h1>You can<br/>see<br/>as much as<br/>you know</h1>
                                     <p>If you love it, you know it, you see it, you see, it's not the same as before.</p>
+                                    <br/><br/>
                                     <p>사랑하면 알게되고 알면 보이나니, 그때 보이는 것은 전과 같지 않으리라.</p>
                                 </div>
                             </div>
